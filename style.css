@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.first {
+    background-color: #F7F8FA;
+    min-height: 971px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 38px 0;
+}
+
+.header-logo {
+    background-image: url(./images/header-logo.png);
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 28px;
+    display: block;
+}
+
+.header-menu {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+
+.header-menu-item {
+    margin-right: 42px;
+}
+
+.header-menu-link {
+    text-decoration: none;
+    line-height: 28px;
+    color: #1D293F;
+}
+
+.base-btn-style {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+    color: #E9F7FE;
+    line-height: 20px;
+    padding: 15px 30px;
+    background-color: #0F53FA;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-title {
+    margin: 100px 0 22px;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #1D293F;
+}
+
+.about-description {
+    font-size: 21px;
+    line-height: 30px;
+    color: #7C8087;
+    margin-bottom: 38px;
+}
+
+.about-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    padding: 18px 40px;
+}
+
+.about-span {
+    display: block;
+    margin-top: 15px;
+    color: #8C97AC;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.first-image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first-image img {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.first-image::before {
+    content: "";
+    position: absolute;
+    width: 256px;
+    height: 256px;background-color: #FFD166;
+    left: -90px;
+    top: 136px;
+    border-radius: 20px;
+    transform: rotate(60deg);
+}
+
+.first-image::after {
+    content: "";
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    background-color: #38DFF6;
+    border-radius: 50%;
+    right: -100px;
+    top: -90px;
+}
+
+
+
+
+.second {
+    min-height: 729px;
+}
