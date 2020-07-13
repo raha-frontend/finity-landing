@@ -130,9 +130,241 @@ body {
     top: -90px;
 }
 
-
-
-
-.second {
+.second-top {
     min-height: 729px;
+    background-color: #fff;
+    text-align: center;
+    padding: 121px 0 118px;
+    border-bottom: 1px solid #ECEFF4;
 }
+
+.second-inner {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-top-title {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.827586px;
+    color: #1D293F;
+    margin-bottom: 25px;
+}
+
+.second-top-description {
+    font-size: 18px;
+    line-height: 32px;
+    color: #7C8087;
+    margin-bottom: 64px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+.block {
+    width: 350px;
+    min-height: 158px;
+    background-color: #F7F8FA;
+    border-radius: 10px;
+    padding: 16px 23px 18px 94px;
+    text-align: left;
+    position: relative;
+}
+
+.block-1::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/icon-1.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    left: 19px;
+    top: 21px;
+}
+
+.block-2::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/icon-2.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    left: 19px;
+    top: 21px;
+}
+
+.block-3::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/icon-3.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    left: 19px;
+    top: 21px;
+}
+
+.block-title {
+    font-size: 21px;
+    line-height: 34px;
+    color: #1D293F;
+}
+
+.block-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7C8087;
+}
+
+.second-top-link {
+    position: relative;
+    padding: 18px 16px 18px 53px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.second-top-link::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/btn-icon.png);
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.second-bottom {
+    min-height: 970px;
+    background-color: #fff;
+    padding: 152px 0;
+    overflow: hidden;
+}
+
+.content-bottom-inner {
+    display: flex;
+}
+
+.second-bottom-left {
+    min-width: 513px;
+    margin-right: 232px;
+}
+
+.second-bottom-title {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.827586px;
+    color: #1D293F;
+    margin: 125px 0 25px;
+}
+
+.second-bottom-span {
+    display: block;
+    font-size: 18px;
+    line-height: 32px;
+    color: #7C8087;
+    margin-bottom: 46px;
+}
+
+.second-bottom-description {
+    font-size: 24px;
+    line-height: 34px;
+    color: #1D293F;
+    padding-left: 77px;
+}
+
+.projects {
+    margin-bottom: 41px;
+    position: relative;
+}
+
+.persons {
+    margin-bottom: 27px;
+    position: relative;
+}
+
+.lines {
+    position: relative;
+}
+
+.projects::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/bottom-icon1.png);
+    background-repeat: no-repeat;
+    width: 59px;
+    height: 59px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.persons::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/bottom-icon2.png);
+    background-repeat: no-repeat;
+    width: 59px;
+    height: 59px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lines::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/bottom-icon3.png);
+    background-repeat: no-repeat;
+    background-color: #F7F8FA;
+    border-radius: 50%;
+    width: 59px;
+    height: 59px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.second-bottom-right {
+    position: relative;
+}
+
+.second-bottom-right::before {
+    content: "";
+    position: absolute;
+    width: 612px;
+    height: 612px;
+    background-color: #FFD166;
+    border-radius: 50%;
+    z-index: 1;
+    left: -198px;
+    top: -54px;
+}
+
+.bitmap-img {
+    position: absolute;
+    left: -153px;
+    top: 82px;
+    z-index: 3;
+    border-radius: 10px;
+    display: block;
+}
+
+.connection-img {
+    z-index: 2;
+    position: relative;
+    border-radius: 10px;
+}
+
+.tariff {
+    min-height: 1312px;
+    background-color: #f7f8fa;
+    padding: 151px 0 219px;
+}
+
+
